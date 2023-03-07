@@ -45,8 +45,8 @@
     left: 0;
     background: yellowgreen;
     z-index: 1;
-    /* display: none;  */
-   text-align: center;
+    display: none;      
+    text-align: center;
     
     }
     
@@ -55,22 +55,23 @@
     }
 
 .menu_link {
+position: relative;
+}
+
+
+.sub-menu_list {
     position: absolute;
-   
-}
-
-.sub-menu_link {
-    position: relative;
-    z-index: 1;
-    right: 155px;
+    right: 100%;
+    bottom: 0%;
     background: red;
-    text-align: center;
+    z-index: 1;
+    display: none;
+    
 }
 
-.menu > .second_ul .menu_link:hover .sub-menu_link {
-    display: block;
-} 
-
+.second_ul > li:hover .sub-menu_list {
+   display: block;
+}
 
 
 /* ____________________________________HOME___________________________________________________________________ */
