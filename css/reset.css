@@ -1,3 +1,29 @@
+@font-face {
+	font-family:'Anton-Regular'; 
+	src: url('../fonts/Anton-Regular.woff2') format('woff2');
+font-weight: 400;
+font-style: normal;
+font-display: swap;
+} 
+
+@font-face {
+	font-family:'DancingScript-Medium'; 
+	src: url('../fonts/DancingScript-Medium.woff2') format('woff2');
+font-weight: 700;
+font-style: normal;
+font-display: swap;
+} 
+
+
+@font-face {
+	font-family:'ShantellSans-Bold.woff2'; 
+	src: url('../fonts/ShantellSans-Bold.woff2.woff2') format('woff2');
+font-weight: 500;
+font-style: normal;
+font-display: swap;
+} 
+
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,

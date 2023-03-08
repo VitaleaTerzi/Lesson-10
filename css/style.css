@@ -3,6 +3,7 @@
 .header {
     padding: 20px 0;
     background: yellowgreen;
+    
 }
 
 .container {
@@ -16,7 +17,9 @@
     justify-content: center;
     background: aqua;
     gap: 30px;
-    
+    font-family: 'ShantellSans-Bold';
+    font-weight: 500; 
+
 }
 
 .menu > li {
@@ -47,7 +50,8 @@
     z-index: 1;
     display: none;      
     text-align: center;
-    
+    font-family: 'Anton-Regular';
+    font-weight: 400;
     }
     
     .second_ul > li {
@@ -66,7 +70,8 @@ position: relative;
     background: red;
     z-index: 1;
     display: none;
-    
+    font-family: 'DancingScript-Medium';
+    font-weight: 700;
 }
 
 .second_ul > li:hover .sub-menu_list {
@@ -234,6 +239,52 @@ margin-bottom: 40px;
         outline: 1px solid black;
     }
     
+/* __________________________________INLINE BLOCK CARDS____________________________________________________ */
+
+.wrapper1 {
+  text-align: center;
+  margin: 0 auto;
+  width: 1300px;
+}
+
+.title {
+  font-size: 30px;
+  font-weight: 900;
+  margin-bottom: 35px;
+}
+
+.cards {
+  font-size: 0;
+  text-align: left;
+}
+
+.card-item {
+  display: inline-block;
+  width: 400px;
+  font-size: 20px;
+  text-align: center;
+  padding: 10px;
+}
+
+.card-foto {
+  height: 160px;
+}
+
+.card-foto img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card-title {
+  font-weight: 900;
+  font-size: 30px;
+}
+
+.card-text {
+  text-align: justify;
+}
+
 
     /* ________________________________TABLE______________________________________________________________ */
 
@@ -469,18 +520,18 @@ html body {
   .container {
     max-width: 1140px;
     margin: 0 auto;
-    padding-bottom: 120px; 
+    
     
   }
   .container5 {
-    
+    padding-bottom: 120px;
   }
   .ourworks {
   text-align: center;
   font-weight: 400;
   font-size: 32px;
   line-height: 34px;
-  padding: 120px 0;
+  padding-bottom: 120px;
   }
   .work-cards {
     display: flex;
