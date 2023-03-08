@@ -313,13 +313,16 @@ html body {
     margin: 0 auto;
     padding: 0 15px;
     align-items: center;
-    gap: 30px;
-    flex: 1 1 50%;
+    box-sizing: border-box;
   }
   
   .section1 .container {
     display: flex;
     text-align: center;
+    gap: 30px;
+  }
+  .section1_text {
+    flex: 1 1 50%;
   }
   .logo_title {
     font-weight: 400;
@@ -329,7 +332,6 @@ html body {
     padding-bottom: 60px;
   }
   .foto1 {
-    height: 670px;
     flex: 1 1 50%;
   }
   .foto1 img {
@@ -338,47 +340,40 @@ html body {
     object-fit: cover;
   }
   .buttons_section1 a {
-    text-decoration: none;
-    color: black;
-  
-    }
-  
-  .buttons_section1 {
-  
-  }
-  
-  
-  .buttons {
-    padding-top: 40px;
-    gap: 112px;
-  }
-  .ord_fl {
     display: inline-block;
     text-decoration: none;
     color: black;
+    font-size: 18px;
+    border: 2px solid   #81a36b;
+    padding: 8px 22px 9px;
+    
+    }
+  
+  
+  .ord_fl {
+    display: inline-block;
+    color: black;
     background-color: #81a36b;
-    width: 190px;
-    height: 40px;
-    padding: 20px 30px;
+    cursor: pointer;
+    border: none;
+    padding: 12px 22px;
     font-size: 18px;
   }
+
   .help_fl {
     display: inline-block;
     text-decoration: none;
     color: black;
-    width: 190px;
-    height: 40px;
-    border: solid 2px  #81a36b;
-    padding: 20px 30px;
+    font-size: 18px;
+    padding: 8px 22px;
+    
   }
   
   /* .................................SECTION 2............................................... */
   
   .container2 {
     width: 540px;
-    padding: 0;
-  padding-top: 120px;
-  padding-bottom: 120px;
+    padding-bottom: 120px;
   }
   
   .section2 {
@@ -414,8 +409,7 @@ html body {
     max-width: 1140px;
     margin: 0 auto;
     padding: 0 15px;
-    display: flex;
-    justify-content: space-between;
+    
   }
   
   .price {
@@ -428,15 +422,12 @@ html body {
     text-align: center;
     
   }
-  .price-box img {
   
-    
-  }
   
   .price {
     font-family: "Montserrat";
     font-weight: 500;
-    padding: 80px 213px 122px 192px;
+    padding: 80px 0;
     
   }
   /* ..................................... SECTION 4.............................................................*/
@@ -450,7 +441,8 @@ html body {
     align-items: center;
     gap: 30px;
     text-align: center;
-    flex: 1 1 50%;
+    box-sizing: border-box;
+    
   }
   
   
@@ -460,10 +452,16 @@ html body {
   line-height: 67px;
     color: #000000;
   }
+
+  .work4 {
+    flex: 1 1 50%;
+  }
+
   .foto2  {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    flex: 1 1 50%;
   }
   
   /* ..................................... SECTION 5.............................................................*/
@@ -471,11 +469,11 @@ html body {
   .container {
     max-width: 1140px;
     margin: 0 auto;
-    padding: 0 15px;
+    padding-bottom: 120px; 
     
   }
   .container5 {
-    padding: 15px 15px 95px;
+    
   }
   .ourworks {
   text-align: center;
